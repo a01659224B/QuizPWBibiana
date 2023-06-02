@@ -157,7 +157,7 @@
     .fotos-cuarzos:hover{
         border: 2px dotted blue;
         transform: scale(1.2);}/*aumentar su tamaño y mostrar un borde punteado de color azul cuando pase el cuarsor*/
-        
+
     .audiom{display: flex;
       justify-content:space-around;
     }
@@ -185,12 +185,14 @@
       padding: 10px;
       text-align: left;
       border-bottom: 1px solid #ddd;
+      Text-align: center;
     }
     
     th{
     background-color: brown;
     color: white;
     padding: 10px;
+    text-align: center;
     }
     
     td {
