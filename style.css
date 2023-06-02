@@ -41,6 +41,10 @@
       justify-content: space-between;
       align-items: center;
       color: cadetblue;} 
+
+  .fotos-inicio:hover {
+    border: 2px dotted blue;
+    transform: scale(1.2);}/*aumentar su tamaño y mostrar un borde punteado de color azul cuando pase el cuarsor*/
         
   .fotos-inicio {
       flex: 1;
@@ -149,6 +153,10 @@
       object-fit: cover;
       margin: 5px;
     }
+    .fotos-cuarzos:hover{
+        border: 2px dotted blue;
+        transform: scale(1.2);}/*aumentar su tamaño y mostrar un borde punteado de color azul cuando pase el cuarsor*/
+            
   
     .audiom{display: flex;
       justify-content:space-around;
