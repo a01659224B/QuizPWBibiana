@@ -10,8 +10,9 @@
       font-size: 3em;
       padding: 30px;
       font-weight: bold;
-      text-align: center;
-      color:#124266;}
+      text-align: center; /*Este ya estaba centrado*/
+      color:#124266;
+      font-family: fantasy;/*Se añade fantasy*/}
   
   nav{display: flex;
       align-items: center; 
@@ -59,7 +60,12 @@
       background-color: #124266;
       color: aliceblue;
       padding: 15px;
-      border-radius: 5px;}
+      border-radius: 5px;
+      text-align: center; /*Se centra*/
+      font-family: fantasy;/*Se añade fantasy*/}
+
+  h3{ text-align: center; /*Se centra*/
+    font-family: fantasy;/*Se añade fantasy*/}
   
   .vn {display: flex;
       justify-content: center;
