@@ -1,0 +1,185 @@
+*{margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:none;
+    text-align: justify;}
+  
+  header{background-color:aliceblue;}
+  
+  h1{display: block;
+      font-size: 3em;
+      padding: 30px;
+      font-weight: bold;
+      text-align: center;
+      color:#124266;}
+  
+  nav{display: flex;
+      align-items: center; 
+      justify-content: center;
+      background-color: #124266;
+      height: 50px; 
+      width: 100%;}
+  
+  nav > a {color: beige;
+      text-decoration: none;
+      text-align: center;
+      margin:20px;
+      padding: 0px;
+      border-radius: 5px;
+      background-color: #124266;}  
+  
+  nav > a:hover{color:beige;
+      border: 1px solid beige;
+      border-radius: 10px;
+      padding: 10px;}
+  
+  body{background-color: cadetblue;}
+  
+  .fotoinicio {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: cadetblue;} 
+        
+  .fotos-inicio {
+      flex: 1;
+      width: 100px;
+      object-fit: cover;
+      padding:0;
+      background-color: cadetblue;}
+  
+  main{padding-left: 100 px;
+      padding-right: 100 px;
+      padding-inline-start: 5%;
+      padding-inline-end: 5%;
+      background-color: cadetblue;
+      color:black;}
+  
+  h2{font-weight: bold;
+      background-color: #124266;
+      color: aliceblue;
+      padding: 15px;
+      border-radius: 5px;}
+  
+  .vn {display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300;
+      width:200;}
+  
+  .listanonumerada {
+      list-style-type: none;
+      padding-left: 20px;
+        }
+        
+  .listanonumerada li::before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-image: url("imagenes/hoja.png");
+      background-size: cover;
+      margin-right: 8px;
+      vertical-align: middle;
+        }
+      
+  .listanumerada li { margin-bottom: 10px;}
+   
+  #morado{font-weight: bold;
+      background-color: purple; 
+      color: aliceblue;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 5px;}
+        
+  #rosa {font-weight: bold;
+      background-color: pink; 
+      color: black;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 5px;}
+        
+  #amarillo{
+      font-weight: bold;
+      background-color: yellow; 
+      color: black;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 5px;}
+  
+  #negro{
+      font-weight: bold;
+      background-color: black; 
+      color: aliceblue;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 5px;}
+        
+  #dorado{
+      font-weight: bold;
+      background-color: goldenrod; 
+      color: aliceblue;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 5px;}
+        
+  #cafe{
+      font-weight: bold;
+      background-color: brown; 
+      color: aliceblue;
+      margin: 20px;
+      padding: 10px;
+      border-radius: 5px;}
+  
+    .fotocuarzos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+        
+    .fotocuarzos img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin: 5px;
+    }
+  
+    .audiom{display: flex;
+      justify-content:space-around;
+    }
+    .yt{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .top-videos,
+    .bottom-videos {
+      display: flex;
+    }
+    
+    iframe {width: 50%;
+      height: 300px;}
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    
+    td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    }
+    
+    td {
+      background-color: #f9f9f9;
+    }
+    footer {background-color: aliceblue;}

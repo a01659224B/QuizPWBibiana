@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylef.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    
+</body>
+</html>
+<section class="formulario">
+
+    <h2> Queremos resolver tus dudas</h2>
+
+    <p>
+        LLena los siguientes datos: 
+    </p>
+
+    <form class="form" action="ejemplo.js" method="post">
+
+        <fieldset class="bform"> 
+
+            <legend class="tbloque"> Datos personales </legend>
+
+                <label for="nombre" class="texto">
+                     Nombre : 
+                    <input id="nombre" type="texto" class="texto" size="25" title="Name" name="nombre" placeholder="Nombre" required="">
+                </label>
+
+                <label for="apellido" class="texto">
+                    Apellido :
+                    <input id="apellido" type="text" class="texto" size="25" title="surname" name="apellido" placeholder="Apellido" required="">
+                </label>
+            
+                <label for="celular">
+                    Telefono :
+                    <input id="celular" type="cel" size="20" placeholder="celular">
+                </label>
+                <label for="correo">
+                    Correo electronico :
+                    <input id="correo-usuario" type="email" size="25" placeholder="@ejemplo.com">
+                </label> 
+                <br><br>
+
+                <label for="feedback" class="texto">
+                    Cuentanos mas de sobre tu experiencia con la espiritualidad
+                    <br>
+                <textarea name="" id="" cols="100" rows="" placeholder="cuentanos tu experiencia con la espiritualidad"></textarea>
+                </label>
+                <br>
+
+        <label for="satisfaccion" class="texto">
+             ¿Te sirvio la información encontrada? :  
+                <input id="satisfaccion" type="radio" name="respuesta" value="1"> nada
+                <input id="satisfaccion" type="radio" name="respuesta" value="2"> algo
+                <input id="satisfaccion" type="radio" name="respuesta" value="3"> medio
+                <input id="satisfaccion"type="radio" name="respuesta" value="4"> bastante  
+                <input id="satisfaccion" type="radio" name="respuesta" value="5"> completamente 
+            </label>
+            
+            <br> 
+            <label for="foto" class="texto">
+                Foto de lo que gustes compartirnos
+                <input id="foto" type="file" accept=".jpg, .png">
+            </label>
+            
+            <br>
+
+        </fieldset>
+</main>
